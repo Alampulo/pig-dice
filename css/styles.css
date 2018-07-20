@@ -20,8 +20,6 @@ body{
   font-size: 45px;
   color: red;
   font-family: 'Monoton', cursive;
-
-  /*-webkit-text-stroke: 1px #000;*/
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #fff;
   letter-spacing: 10px;
 }
@@ -33,7 +31,7 @@ img {
   height: 100px;
 }
 .spacer {
-    margin-top: 10px; /* define margin as you see fit */
+    margin-top: 10px;
 }
 .wrapper{
   margin: 10px;
