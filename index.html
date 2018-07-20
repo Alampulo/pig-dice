@@ -16,7 +16,17 @@
       <div class="row" id="intro">
         <div class="col-md-12 spacer">
           <div class="wrapper">
-
+            <p>
+            <label for="gameChoice"> Two Player
+              <input type="radio" name="gameChoice" value="twoPlayer" checked>
+            </label>
+          </p>
+          <p>
+            <label for="gameChoice"> Play Against Computer
+              <input type="radio" name="gameChoice" value="ai">
+            </label>
+          </p>
+            <button type="button" id="gameChoice" class = "btn btn-info btn-lg" name="button">Play</button>
           </div>
         </div>
       </div>
@@ -56,13 +66,15 @@
 
           </div>
 
+        </div>
+        <div class="center">
+          <button type="button" id="roll" class = "btn btn-success btn-lg" name="button">Roll</button>
+          <button type="button" id="hold" class = "btn btn-warning btn-lg" name="button">Hold</button>
 
         </div>
       </div>
 
 
-      <button type="button" id="roll" class = "btn btn-success btn-lg" name="button">Roll</button>
-              <button type="button" id="hold" class = "btn btn-warning btn-lg" name="button">Hold</button>
 
 
     </div>
