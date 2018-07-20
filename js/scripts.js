@@ -79,18 +79,6 @@ Referee.prototype.checkGame = function (){
     this.gameover = 1;
   }
 }
-
-// Referee.prototype.checkAiTurn = function (){
-//   // console.log(this.players[1].playerID === "ai")
-//   if (this.players[1].playerID === "ai" && this.players[1].turn ===1){
-//     //throw dice once a second
-//     setInterval(this.throw, 1000);
-//     //if after 4 tosses hold
-//
-//   }
-// }
-
-//interface functions
 function switchClass(player1, player2){
   if (player1.turn === 1){
     $("div.player1").addClass("highlight");
@@ -117,12 +105,6 @@ function showDice (dice){
 
 }
 
-
-
-
-
-
-
 $(document).ready(function (){
   var gameChoice = $('input:radio[name=gameChoice]:checked').val();
   var player1 = new Player ("mister");
@@ -138,10 +120,9 @@ $(document).ready(function (){
   $("#gameChoice").click(function (){
     gameChoice = $('input:radio[name=gameChoice]:checked').val();
     if (gameChoice === "ai"){
-      // console.log("ai");
+
       jimmyTheReferee.players[1].playerID = "ai";
 
-      //
 
     }
     $(this).parent().parent().fadeOut(700, function (){
@@ -178,7 +159,6 @@ $(document).ready(function (){
     }
 
   }, 1000);
-// setInterval(jimmyTheReferee.checkAiTurn, 1000);
 
   $("#roll").click(function (){
     jimmyTheReferee.checkGame();
