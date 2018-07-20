@@ -1,72 +1,10 @@
-body {
-  margin-top: 30px;
-  background-color: #FBFBF2;
-}
+.header{
+  text-align: center;
+  font-size: 38pt;
+  color: red;
+  font-family: 'Monoton', cursive;
 
-.title {
-  color: white;
-  background-color: #007EA7;
-  margin-bottom: 100px;
-}
-
-#panel-player1, #panel-player2 {
-  height: 280px;
-  background-color: #77BA99;
-}
-
-.footer {
-  margin-top: 50px;
-  background-color: #00445b;
-  color: white;
-  font-size: 1.5em;
-}
-
-.btn-danger {
-  margin-top: 10px;
-}
-
-.dice-image {
-  margin-top: 25px;
-}
-
-/*Hide Screen*/
-
-.players-screen, .game-screen, .results-screen {
-  display: none;
-}
-
-
-/*Results Screen*/
-
-.hold-picture {
-  margin-bottom: 10px;
-}
-
-.statistics {
-font-family: 'Press Start 2P', cursive;
-}
-
-.comments {
-font-size: 2em;
-}
-
-/*Javascript applied*/
-
-.button-disable {
-  cursor: not-allowed;
-  filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  opacity: .65;
-  pointer-events: none;
-}
-
-.panel-disable {
-  background-color: #77BA99;
-  opacity: .4;
-}
-
-.dice-image {
-  float: right;
-  border: 1px black solid;
+  /*-webkit-text-stroke: 1px #000;*/
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #fff;
+  letter-spacing: 10px;
 }
