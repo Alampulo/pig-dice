@@ -8,3 +8,12 @@
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #fff;
   letter-spacing: 10px;
 }
+body{
+  background-image: url("../img/dice-background.jpg");
+  background-size: cover;
+  color: #D80003;
+  color: #f0ad4e;
+  color:#fff;
+  font-size: 14pt;
+  font-family: 'Limelight', cursive;
+}
