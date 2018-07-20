@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="preheader">
+      <p class="header">Pig Dice</p>
+    </div>
+    <div class="container">
+      <div class="row" id="intro">
+        <div class="col-md-12 spacer">
+          <div class="wrapper">
+            <p>
+            <label for="gameChoice"> Two Player
+              <input type="radio" name="gameChoice" value="twoPlayer" checked>
+            </label>
+          </p>
+          <p>
+            <label for="gameChoice"> Play Against Computer
+              <input type="radio" name="gameChoice" value="ai">
+            </label>
+          </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="twoPlayer">
+        <div class="col-md-12 spacer">
+          <div class="wrapper center">
+              <h2>Dice:</h2>
+              <div id="dice">
+                <img src="img/1.png"/>
+              </div>
+              <div id="winner">
+              </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 spacer bgColor">
+          <div class="wrapper player1">
+            <h2> Player 1</h2>
+            <div id="player1RunningTotal">
+              Running Total: 0
+            </div>
+            <div id="player1Total">
+              Total: 0
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 spacer bgColor">
+          <div class="wrapper player2">
+              <h2>Player 2</h2>
+              <div id="player2RunningTotal">
+                Running Total: 0
+              </div>
+              <div id="player2Total">
+                Total: 0
+              </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </body>
+</html>
