@@ -17,3 +17,10 @@ body{
   font-size: 14pt;
   font-family: 'Limelight', cursive;
 }
+.wrapper{
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 3px 3px 11px #000000;
+}
