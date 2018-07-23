@@ -1,7 +1,8 @@
 # pig-dice
-## Setup/Installation Requirements
+# Author
+Bryan Juma
  
- #Description
+# Description
  this web appliccation is a popular dice game .
 
 ## Known Bugs
@@ -13,7 +14,7 @@ there are no known bugs
 * JAVASCRIPT
 * BOOTSRAP & JQUERY libraries
 
-##Specifications:
+## Specifications:
 
 The program will return a number between 1 and 6 when the roll button is pressed
   Example Input: button press - roll button
@@ -41,15 +42,13 @@ The program will revert to the hold score if the player rolls a 1
 
 The program will terminate when one player reach a number >= 100
   Example Input: Players score is 100
-  Example Output: Player is prompted with a "you win" statement
+  Example Output: Player is prompted with a "
+Player 1 win" statement
+  
 ## Support and contact details
-Reach out to me at one of the following places
+  Reach out to me at one of the following places
 * email :jumabryan10@gmail.com
 * cellphone: 0701323172
-The program will accept input from a 2nd player, adding total score to a new output.
-  Example Input: Player 2 presses their Hold button
-  Example Output: Player 2 total score is held in a output separate from Player 1.
-***
+# Copyright
 
-The program will hold the player 1 score and switch to player 2 scoring after clicking hold
 
